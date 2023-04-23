@@ -1,0 +1,59 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-image: url("https://media.istockphoto.com/id/156604778/photo/pack-of-cards.jpg?s=612x612&w=0&k=20&c=DuazfNyn-vxhencvQL4G57Ogk_DphAOpViMcPln9uh0=");
+    background-size: cover;
+    font-weight: bold;
+    font-size: large;
+    color: black;
+    text-align: center;
+}
+
+.container2{
+    padding-bottom: 50px;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+.container {
+    padding-left: 400px;
+    padding-right: 50px;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    min-width: 450px;
+    max-width: 650px;
+    border: auto;
+    
+    
+    overflow: auto;
+    max-height: 100vh;}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: 10px;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+#strt-btn{
+    background-color: green;
+}
+#new-btn{
+    background-color: blue;
+}
+#restrt-btn{
+    background-color: red;
+}
